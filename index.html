@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<!-- By Cleidson Neves - 10/09/2025 - Projeto Baby Dev - DevClub -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskDev - Organize suas Tarefas</title>
+    <!-- Importação do arquivo de estilos CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Importação da biblioteca Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Container principal que envolve toda a aplicação -->
+    <div class="container">
+        <!-- Cabeçalho da aplicação -->
+        <header>
+            <div class="header-content">
+                <!-- Título da aplicação com ícone -->
+                <h1><i class="fas fa-tasks"></i> TaskDev</h1>
+                <!-- Botão para alternar entre modo claro e escuro -->
+                <button id="theme-toggle" class="theme-toggle">🌙</button>
+            </div>
+        </header>
+
+        <!-- Conteúdo principal da aplicação -->
+        <main>
+            <!-- Seção para adicionar novas tarefas -->
+            <section class="task-input-section">
+                <h2>Nova Tarefa</h2>
+                <!-- Formulário para adicionar novas tarefas -->
+                <form id="task-form">
+                    <div class="input-group">
+                        <!-- Campo de entrada para o texto da tarefa -->
+                        <input type="text" id="task-input" placeholder="Descreva sua tarefa..." required>
+                        <!-- Seleção de prioridade da tarefa -->
+                        <select id="task-priority">
+                            <option value="low">Baixa Prioridade</option>
+                            <option value="medium" selected>Média Prioridade</option>
+                            <option value="high">Alta Prioridade</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <!-- Campo para selecionar data da tarefa -->
+                        <input type="date" id="task-date">
+                        <!-- Botão para submeter o formulário -->
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-plus"></i> Adicionar Tarefa
+                        </button>
+                    </div>
+                </form>
+            </section>
+
+            <!-- Seção de filtros e estatísticas -->
+            <section class="filters-section">
+                <div class="filters">
+                    <!-- Botões para filtrar as tarefas -->
+                    <button class="filter-btn active" data-filter="all">Todas</button>
+                    <button class="filter-btn" data-filter="active">Ativas</button>
+                    <button class="filter-btn" data-filter="completed">Concluídas</button>
+                </div>
+                <div class="stats">
+                    <!-- Contador de tarefas -->
+                    <span id="tasks-count">0 tarefas</span>
+                    <!-- Botão para limpar tarefas concluídas -->
+                    <button id="clear-completed" class="btn-link">Limpar concluídas</button>
+                </div>
+            </section>
+
+            <!-- Seção que exibe a lista de tarefas -->
+            <section class="tasks-section">
+                <!-- Lista onde as tarefas serão renderizadas -->
+                <ul id="tasks-list" class="tasks-list">
+                    <!-- As tarefas serão adicionadas aqui dinamicamente via JavaScript -->
+                </ul>
+                <!-- Estado vazio (exibido quando não há tarefas) -->
+                <div id="empty-state" class="empty-state">
+                    <i class="fas fa-clipboard-list"></i>
+                    <h3>Nenhuma tarefa ainda</h3>
+                    <p>Adicione suas primeiras tarefas para começar a organizar seu dia!</p>
+                </div>
+            </section>
+        </main>
+
+        <!-- Rodapé da aplicação -->
+        <footer>
+            <p>TaskDev &copy; 2025 - Organize suas tarefas de forma simples</p>
+        </footer>
+    </div>
+
+    <!-- Importação do arquivo JavaScript com a lógica da aplicação -->
+    <script src="script.js"></script>
+</body>
+</html>
