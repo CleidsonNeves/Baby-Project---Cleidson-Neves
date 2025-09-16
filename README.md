@@ -39,12 +39,12 @@ Font Awesome - Ícones para melhor experiência visual
 📦 ----Estrutura do Projeto----
 
 TaskDev-app/
-│
-├── index.html          # Estrutura principal da aplicação
 
-├── style.css           # Estilos e layout da aplicação
+─ index.html          # Estrutura principal da aplicação
 
-└── script.js           # Lógica e funcionalidades JavaScript
+─ style.css           # Estilos e layout da aplicação
+
+─ script.js           # Lógica e funcionalidades JavaScript
 
 🚀 ----Como Usar----
 
