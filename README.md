@@ -2,7 +2,7 @@ README - TaskDev - Gerenciador de Tarefas para desenvolvedores
 
 ----Visão Geral----
 
-TaskFlow é uma aplicação web moderna e responsiva para gerenciamento de tarefas, desenvolvida com HTML, CSS e JavaScript. Ela permite que os usuários criem, organizem e acompanhem suas tarefas de forma intuitiva e eficiente.
+TaskDev é uma aplicação web moderna e responsiva para gerenciamento de tarefas, desenvolvida com HTML, CSS e JavaScript. Ela permite que os usuários criem, organizem e acompanhem suas tarefas de forma intuitiva e eficiente.
 
 ----Funcionalidades----
 
