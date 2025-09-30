@@ -6,35 +6,35 @@ TaskDev é uma aplicação web moderna e responsiva para gerenciamento de tarefa
 
 ----Funcionalidades----
 
-✅ Adicionar novas tarefas com título, prioridade e data
+✅ Adicionar novas tarefas com título, prioridade e data;
 
-🎯 Definir prioridades (Baixa, Média, Alta)
+🎯 Definir prioridades (Baixa, Média, Alta);
 
-📅 Selecionar datas para suas tarefas
+📅 Selecionar datas para suas tarefas;
 
-🔍 Filtrar tarefas por status (Todas, Ativas, Concluídas)
+🔍 Filtrar tarefas por status (Todas, Ativas, Concluídas);
 
-🗑️ Excluir tarefas individualmente
+🗑️ Excluir tarefas individualmente;
 
-🧹 Limpar tarefas concluídas com um clique
+🧹 Limpar tarefas concluídas com um clique;
 
-🌓 Modo claro/escuro com persistência de preferência
+🌓 Modo claro/escuro com persistência de preferência;
 
-💾 Armazenamento local - suas tarefas são salvas no navegador
+💾 Armazenamento local - suas tarefas são salvas no navegador;
 
-📱 Design responsivo que funciona em desktop e mobile
+📱 Design responsivo que funciona em desktop e mobile;
 
 🛠️ ----Tecnologias Utilizadas----
 
-HTML5 - Estrutura semântica da aplicação
+HTML5 - Estrutura semântica da aplicação;
 
-CSS3 - Estilização com variáveis CSS, Flexbox e Grid Layout
+CSS3 - Estilização com variáveis CSS, Flexbox e Grid Layout;
 
-JavaScript - Lógica da aplicação e manipulação do DOM
+JavaScript - Lógica da aplicação e manipulação do DOM;
 
-LocalStorage API - Persistência de dados no navegador
+LocalStorage API - Persistência de dados no navegador;
 
-Font Awesome - Ícones para melhor experiência visual
+Font Awesome - Ícones para melhor experiência visual.
 
 📦 ----Estrutura do Projeto----
 
@@ -48,11 +48,11 @@ TaskDev-app/
 
 🚀 ----Como Usar----
 
-1-Clone ou baixe os arquivos do projeto
-2-Abra o arquivo index.html em qualquer navegador moderno
-3.Comece a adicionar tarefas usando o formulário
-4-Marque como concluído clicando na checkbox de cada tarefa
+1-Clone ou baixe os arquivos do projeto;
+2-Abra o arquivo index.html em qualquer navegador moderno;
+3.Comece a adicionar tarefas usando o formulário;
+4-Marque como concluído clicando na checkbox de cada tarefa.
 
-Use os filtros para visualizar tarefas por status
+Use os filtros para visualizar tarefas por status.
 
-Alternar entre temas claro/escuro usando o botão no canto inferior direito
+Alternar entre temas claro/escuro usando o botão no canto inferior direito.
